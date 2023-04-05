@@ -24,7 +24,7 @@ head {
 .navbar {
     padding: 2rem;
     background-color: #1b1b32;
-    max-height: 60px;
+    max-height: 50px;
 }
 
 .navbar-collapse {
