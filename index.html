@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <!--Título-->
+  <title>Gina Ramacciotti | Desarrollo Web Front-end</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#">
+          <img src="Imagenes/icono-diseno-logotipo-letra-gr_679026-4.jpg" width="50px" alt="Logo de la pagina web">
+        </a>
+        <ul class="navbar-nav justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#estudios">Estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intereses">Intereses</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Section Hero-->
+    <section>
+        <div class="hero-principal text-center">
+            <img class="hero-img-desarrollador rounded-circle" src="Imagenes/IMG_20230127_163529.jpg" alt="Foto de perfil">
+            <h1 class="display-5 ">Hola, soy Gina Ramacciotti</h1>
+            <h2 class="lead mb-4">Desarrolladora en proceso de aprendizaje.</h2>
+          </div>
+  </section>
+  <!--Sobre mi-->
+  <section class="sobre-mi" id="sobre-mi">
+    <div>
+      <p class="container text-center">Me llamo Gina, soy de la ciudad de Pergamino, Buenos Aires, aunque actualemnte vivo en Rosario, Santa Fe.<br> Actualmente trabajo como administrativa pero mi idea es poder dedicarme al desarrollo en un futuro cercano. <br> Vivo con mi novio y mi perro Max que es uno mas de la familia, diría que el mas consentido! </p>
+    </div>
+  </section>
+  <section class="experiencia p-4">
+    <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class="columna col-12 col-md-6" id="estudios">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Estoy estudiando desarrollo de manera autodidacta hace  3 meses para ampliar el conocimiento que me dan en la facultad y mi idea es poder este año comenzar a trabajar en este ámbito.</p>
+          <div class="badge-contenedor"> 
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span> <br>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            <span class="badge text-bg-primary">GitHub</span>
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-6">
+          <i class="bi bi-book"></i>
+          <p class="experiencia-titulo"> Estudios </p>
+          <p>Estoy estudiando Ingenieria en Sistemas de Información en la Universidad Tecnológica Nacional. Ademas hice varios cursos de desarrollo, entre ellos en FreeCodeCamp y tambien en el proyecto de Argentina Programa 4.0, el cual termine en febrero.</p>
+          <div class="badge-contenedor"> 
+            <span class="badge text-bg-primary">UTN Rosario</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Argentina Programa</span>
+            <span class="badge text-bg-primary">FreeCodeCamp</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hobbies" id="intereses">
+    <div class="container text-center">
+        <h3>Mis intereses:</h3>
+        <p>Me gusta mucho cocinar, me sirve para desconectar un poco la mente.<br> Disfruto mucho el momento de tomar mates, creo que la mayor parte del dia estoy haciendolo. <br> Me gusta leer, no tengo un genero especifico del que soy fan pero suelo leer policiales, suspenso y fantasía mayormente. <br> Soy fan de Harry Potter, tanto las peliculas como los libros los disfrute varias veces sin cansarme. <br>Tengo un gran amor por las mascotas aunque los perros son mi debilidad, podria pasar mi vida acoriciandolos.  <br>Si bien ahora no practico ningún deporte cuando era mas chica jugaba al voley y al basquet. <br> Actualmente suelo salir a correr y hago entrenamiento funcional siempre y cuando el calor no me derrita. </p>
+    </div>
+  </section>
+  <section class="imagenes">
+      <div>
+        <br><h5 class="text-center ">Unas fotos de mi mascota</h5>   
+        <div class="row  mt-4 mb-4 foto ">
+            <div class="d-flex col-12 col-md-6 justify-content-center">
+              <img src="Imagenes/5.jpg"/>
+            </div>
+
+            <div class="d-flex col-12 col-md-6 justify-content-center">
+              <img src="Imagenes/2.jpg">
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Bakbak One', cursive;
+
+}
+
+body {
+    background: url(https://www.freewebheaders.com/wp-content/gallery/high-tech-hero-headers/blue-high-tech-background-full-screen-header.jpg) no-repeat center center fixed;
+    color: whitesmoke;
+}
+head {
+    background-color: #1b1b32;
+}
+
+/* Barra de navegacion */ 
+.navbar {
+    padding: 2rem;
+    background-color: #1b1b32;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Section Hero */
+
+.hero-img-desarrollador {
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+}
+
+
+/* Sobre mi */
+.sobre-mi {
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+
+/* Experiencia */
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    background-color: #e2e2e263;
+}
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: lightblue ;
+    background-color: #1b1b32;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badge-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Intereses */
+.hobbies  p{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+
+/*Imagenes Max*/
+
+.foto img {
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width:767px) {
+    .navbar { 
+        display: none;
+    }
+}
