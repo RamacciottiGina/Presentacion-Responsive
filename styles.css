@@ -98,4 +98,8 @@ head {
     .navbar { 
         display: none;
     }
+
+    .foto img {
+        margin-bottom: 10px
+    }
 }
